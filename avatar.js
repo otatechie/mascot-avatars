@@ -259,17 +259,20 @@
     const ty = SIZE * (1 - fill) - s * m.topY;
 
     const body = m.body.join("");
+    // SVG ids are document-global, so inlining several avatars on one page
+    // needs per-avatar ids; identical content sharing an id is harmless.
+    const uid = seedHash(body).toString(36);
     return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${SIZE} ${SIZE}" width="${SIZE}" height="${SIZE}">
 <defs>
-  <clipPath id="sil">${body}</clipPath>
-  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+  <clipPath id="sil-${uid}">${body}</clipPath>
+  <filter id="soft-${uid}" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
 </defs>
 <rect width="${SIZE}" height="${SIZE}" fill="${C.bg}"/>
 <g transform="translate(${F(tx)} ${F(ty)}) scale(${F(s * 1000) / 1000})">
   ${body}
-  <g clip-path="url(#sil)">
-    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft)"/>
-    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft)"/>
+  <g clip-path="url(#sil-${uid})">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-${uid})"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-${uid})"/>
   </g>
   ${m.face.join("")}
 </g>

@@ -1,10 +1,22 @@
 {
   "name": "mascot-avatars",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Procedural SVG mascot avatars in the 'IP as Logo' style: 6-10 rounded shapes, two colors, solid background, deterministic from a seed string.",
   "main": "avatar.js",
+  "module": "avatar.mjs",
+  "types": "avatar.d.ts",
+  "exports": {
+    ".": {
+      "types": "./avatar.d.ts",
+      "import": "./avatar.mjs",
+      "require": "./avatar.js"
+    }
+  },
+  "sideEffects": false,
   "files": [
     "avatar.js",
+    "avatar.mjs",
+    "avatar.d.ts",
     "README.md"
   ],
   "scripts": {
@@ -19,5 +31,14 @@
     "generator",
     "procedural"
   ],
-  "license": "MIT"
+  "author": "Ato Augustine",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otatechie/mascot-avatars.git"
+  },
+  "homepage": "https://github.com/otatechie/mascot-avatars#readme",
+  "bugs": {
+    "url": "https://github.com/otatechie/mascot-avatars/issues"
+  }
 }

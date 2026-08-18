@@ -24,4 +24,16 @@ renderAvatar({ seed: "t", corner: "right" });
 assert.throws(() => renderAvatar({ seed: "t", species: "dragon" }));
 assert.throws(() => renderAvatar({ seed: "t", palette: "Nope" }));
 
-console.log("ok:", SPECIES_NAMES.length, "species ×", PALETTES.length, "palettes");
+// different avatars use different internal SVG ids (safe to inline together)
+const idOf = (svg) => svg.match(/clipPath id="([^"]+)"/)[1];
+assert.notStrictEqual(idOf(renderAvatar({ seed: "ada" })), idOf(renderAvatar({ seed: "bob" })));
+assert.notStrictEqual(
+  idOf(renderAvatar({ seed: "ada", species: "cat" })),
+  idOf(renderAvatar({ seed: "ada", species: "ghost" }))
+);
+
+// ESM entry exposes the same API
+import("./avatar.mjs").then((esm) => {
+  assert.strictEqual(esm.renderAvatar({ seed: "ada" }), renderAvatar({ seed: "ada" }));
+  console.log("ok:", SPECIES_NAMES.length, "species ×", PALETTES.length, "palettes; ids unique; esm ok");
+});
