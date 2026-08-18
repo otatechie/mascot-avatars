@@ -1,61 +1,48 @@
-# IP as Logo
+# mascot-avatars
 
-`ip-as-logo` is a compact Agent Skill for generating highly simplified personified mascot logos. It treats the result as a logo first and a character second: bold rounded silhouettes, strict complexity limits, oversized corner composition, and extremely subtle neo-skeuomorphic shading.
+Procedural SVG mascot avatars following the design rules of [ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill): one bold silhouette built from 6–10 rounded shapes, at most two colors on a solid background, subtle 8–12% internal shading, and the character emerging from a lower corner filling 75–85% of the canvas. Deterministic — the same seed always produces the same avatar. Zero dependencies, no AI, works in Node and the browser.
 
-It follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.
+This repository is a fork of the original skill: the AI-agent instruction document lives in [SKILL.md](SKILL.md), and this package is a hand-coded implementation of the same design system.
 
-![IP as Logo showcase](assets/ip-as-logo-wall.webp)
+## Usage
 
-## What it enforces
+### Node
 
-- One dominant silhouette built from roughly 6–10 basic shapes
-- One- or two-color IP artwork on a separate solid background
-- A quantified restrained-color default: softened chromatic backgrounds, warm neutrals, and explicit silhouette/detail contrast targets
-- Thick, rounded forms without sharp or fragile details
-- A 75–85% lower-corner crop with paired identifying features preserved
-- Flat-first artwork with only 8–12% soft internal tonal variation
-- Opaque square output without an App-icon mask, border, or transparent margin
-- Explicit rejection rules for illustration-level complexity, pure flatness, and excessive 3D volume
+```js
+const { renderAvatar } = require("mascot-avatars");
 
-## Install
-
-Clone the repository, then copy its root `SKILL.md` into a skill directory inside your project's `.agents/skills` folder:
-
-```bash
-git clone https://github.com/s1dashu/ip-as-logo-skill.git
-mkdir -p /path/to/project/.agents/skills/ip-as-logo
-cp ip-as-logo-skill/SKILL.md /path/to/project/.agents/skills/ip-as-logo/SKILL.md
+const svg = renderAvatar({ seed: "ada@example.com" });
+require("fs").writeFileSync("avatar.svg", svg);
 ```
 
-For a personal installation, copy `SKILL.md` into `~/.agents/skills/ip-as-logo/` instead.
+### Browser
 
-## Use
-
-Ask your AI agent for an IP mascot logo, for example:
-
-```text
-Create a two-color rounded ghost IP logo on a deep navy background.
+```html
+<script src="avatar.js"></script>
+<script>
+  const svg = MascotAvatar.renderAvatar({ seed: "ada" });
+  document.getElementById("avatar").innerHTML = svg;
+</script>
 ```
 
-The skill asks for a monochrome or multicolor choice when the request does not already specify one. Multicolor defaults to two IP colors plus one separate background color.
+## API
 
-When the user does not supply a palette, the skill favors clearly chromatic but restrained backgrounds rather than neon color or muddy gray. It uses OKLCH target bands when numeric control is available, prefers warm off-white with charcoal or deep navy, and keeps the normal design to no more than three semantic colors including the background.
+### `renderAvatar(opts)` → SVG string (512×512 viewBox)
 
-## Repository structure
+| Option    | Default    | Values |
+|-----------|------------|--------|
+| `seed`    | `"avatar"` | any string; same seed → same avatar |
+| `species` | `"auto"`   | `ghost`, `cat`, `bear`, `bunny`, `robot`, `blob`, `bird`, or `"auto"` (picked from seed) |
+| `palette` | `"auto"`   | a palette name from `PALETTES`, or `"auto"` |
+| `mode`    | `"two"`    | `"two"` (two-color) or `"mono"` (monochrome) |
+| `corner`  | `"auto"`   | `"left"`, `"right"`, or `"auto"` |
 
-```text
-SKILL.md
-assets/ip-as-logo-wall.webp
-README.md
-LICENSE
-```
+Also exported: `PALETTES` (array of `{ name, bg, p, s }`), `SPECIES_NAMES`, `SIZE`.
 
-The skill itself intentionally consists of a single instruction document. The repository also includes the showcase image above, but no scripts, style references, or generation dependencies.
+## Demo
 
-## Model behavior
-
-Image-generation models may still introduce background gradients, crop paired features, or add too much volume. The skill treats those as failures to report or retry, rather than silently claiming compliance or repairing the image after generation.
+Open `index.html` in a browser (or serve the folder) for an interactive playground with live 64px/32px previews and SVG/PNG export.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE). Original skill by [s1dashu](https://github.com/s1dashu).

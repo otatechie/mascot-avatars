@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mascot Avatar Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="layout">
+    <aside class="panel">
+      <h1>Mascot Avatar Studio</h1>
+      <p class="tagline">Logo-first avatars: 6&ndash;10 rounded shapes, two colors, one solid background.</p>
+
+      <label for="seed">Name / seed</label>
+      <div class="seed-row">
+        <input id="seed" type="text" value="avatar" autocomplete="off" spellcheck="false">
+        <button id="randomize" type="button" title="Random seed">🎲</button>
+      </div>
+
+      <label for="species">Character</label>
+      <select id="species">
+        <option value="auto">Auto (from seed)</option>
+      </select>
+
+      <label for="palette">Palette</label>
+      <select id="palette">
+        <option value="auto">Auto (from seed)</option>
+      </select>
+
+      <label for="mode">Colors</label>
+      <select id="mode">
+        <option value="two">Two-color</option>
+        <option value="mono">Monochrome</option>
+      </select>
+
+      <label for="corner">Corner</label>
+      <select id="corner">
+        <option value="auto">Auto (from seed)</option>
+        <option value="left">Lower-left</option>
+        <option value="right">Lower-right</option>
+      </select>
+
+      <div class="downloads">
+        <button id="dl-svg" type="button">Download SVG</button>
+        <button id="dl-png" type="button">Download PNG (1536)</button>
+      </div>
+
+      <p class="credit">Style rules from <a href="https://github.com/s1dashu/ip-as-logo-skill" target="_blank" rel="noopener">ip-as-logo-skill</a></p>
+    </aside>
+
+    <section class="stage">
+      <div id="preview" class="preview-main"></div>
+      <div class="preview-small">
+        <div class="chip"><div id="preview-64"></div><span>64</span></div>
+        <div class="chip"><div id="preview-32"></div><span>32</span></div>
+      </div>
+    </section>
+  </main>
+  <script src="avatar.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
