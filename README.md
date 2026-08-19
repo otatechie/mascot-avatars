@@ -1,4 +1,4 @@
-# mascot-avatars
+# Mascot Avatars
 
 ![40 generated avatars](assets/wall.svg)
 
