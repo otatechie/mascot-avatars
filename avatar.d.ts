@@ -5,7 +5,12 @@ export type SpeciesName =
   | "bunny"
   | "robot"
   | "blob"
-  | "bird";
+  | "bird"
+  | "dog"
+  | "frog"
+  | "penguin"
+  | "alien"
+  | "mouse";
 
 export interface Palette {
   name: string;

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 822 388" width="822" height="388">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="12" y="12" width="150" height="150">
+<defs>
+  <clipPath id="sil-1hm6n7d"><circle cx="0" cy="0" r="150" fill="#f2e8d5"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#f2e8d5"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#f2e8d5" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#f2e8d5" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#e2795b"/></clipPath>
+  <filter id="soft-1hm6n7d" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#223154"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#f2e8d5"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#f2e8d5"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#f2e8d5" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#f2e8d5" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#e2795b"/>
+  <g clip-path="url(#sil-1hm6n7d)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-1hm6n7d)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-1hm6n7d)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#223154"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#223154"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#223154"/>
+</g>
+</svg><text x="87" y="180" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Navy Cream</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="174" y="12" width="150" height="150">
+<defs>
+  <clipPath id="sil-1t7bdtk"><circle cx="0" cy="0" r="150" fill="#ffe8d1"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#ffe8d1"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#ffe8d1" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#ffe8d1" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#37415e"/></clipPath>
+  <filter id="soft-1t7bdtk" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#e8564a"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#ffe8d1"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#ffe8d1"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#ffe8d1" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#ffe8d1" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#37415e"/>
+  <g clip-path="url(#sil-1t7bdtk)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-1t7bdtk)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-1t7bdtk)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#e8564a"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#e8564a"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#e8564a"/>
+</g>
+</svg><text x="249" y="180" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Coral Pop</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="336" y="12" width="150" height="150">
+<defs>
+  <clipPath id="sil-14lqz76"><circle cx="0" cy="0" r="150" fill="#b7dba8"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#b7dba8"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#b7dba8" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#b7dba8" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f0c75e"/></clipPath>
+  <filter id="soft-14lqz76" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#1f3a2d"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#b7dba8"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#b7dba8"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#b7dba8" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#b7dba8" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f0c75e"/>
+  <g clip-path="url(#sil-14lqz76)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-14lqz76)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-14lqz76)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#1f3a2d"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#1f3a2d"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#1f3a2d"/>
+</g>
+</svg><text x="411" y="180" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Forest</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="498" y="12" width="150" height="150">
+<defs>
+  <clipPath id="sil-n0h85t"><circle cx="0" cy="0" r="150" fill="#cbb1f0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#cbb1f0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#cbb1f0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#cbb1f0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffb45c"/></clipPath>
+  <filter id="soft-n0h85t" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#3b2a56"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#cbb1f0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#cbb1f0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#cbb1f0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#cbb1f0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffb45c"/>
+  <g clip-path="url(#sil-n0h85t)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-n0h85t)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-n0h85t)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#3b2a56"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#3b2a56"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#3b2a56"/>
+</g>
+</svg><text x="573" y="180" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Grape</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="660" y="12" width="150" height="150">
+<defs>
+  <clipPath id="sil-woibie"><circle cx="0" cy="0" r="150" fill="#7fd1e0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#7fd1e0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#7fd1e0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#7fd1e0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f2f7f5"/></clipPath>
+  <filter id="soft-woibie" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#14405c"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#7fd1e0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#7fd1e0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#7fd1e0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#7fd1e0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f2f7f5"/>
+  <g clip-path="url(#sil-woibie)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-woibie)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-woibie)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#14405c"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#14405c"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#14405c"/>
+</g>
+</svg><text x="735" y="180" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Ocean</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="12" y="200" width="150" height="150">
+<defs>
+  <clipPath id="sil-181f8pt"><circle cx="0" cy="0" r="150" fill="#33302b"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#33302b"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#33302b" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#33302b" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#fdf3dd"/></clipPath>
+  <filter id="soft-181f8pt" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#f5c542"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#33302b"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#33302b"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#33302b" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#33302b" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#fdf3dd"/>
+  <g clip-path="url(#sil-181f8pt)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-181f8pt)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-181f8pt)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#f5c542"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#f5c542"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#f5c542"/>
+</g>
+</svg><text x="87" y="368" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Sunny</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="174" y="200" width="150" height="150">
+<defs>
+  <clipPath id="sil-183z81d"><circle cx="0" cy="0" r="150" fill="#ffd9e0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#ffd9e0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#ffd9e0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#ffd9e0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f7a072"/></clipPath>
+  <filter id="soft-183z81d" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#8c2f4f"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#ffd9e0"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#ffd9e0"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#ffd9e0" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#ffd9e0" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#f7a072"/>
+  <g clip-path="url(#sil-183z81d)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-183z81d)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-183z81d)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#8c2f4f"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#8c2f4f"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#8c2f4f"/>
+</g>
+</svg><text x="249" y="368" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Rose</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="336" y="200" width="150" height="150">
+<defs>
+  <clipPath id="sil-1nimecy"><circle cx="0" cy="0" r="150" fill="#e6e8ea"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#e6e8ea"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#e6e8ea" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#e6e8ea" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#9aa3ad"/></clipPath>
+  <filter id="soft-1nimecy" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#2b2e33"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#e6e8ea"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#e6e8ea"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#e6e8ea" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#e6e8ea" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#9aa3ad"/>
+  <g clip-path="url(#sil-1nimecy)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-1nimecy)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-1nimecy)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#2b2e33"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#2b2e33"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#2b2e33"/>
+</g>
+</svg><text x="411" y="368" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Slate</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="498" y="200" width="150" height="150">
+<defs>
+  <clipPath id="sil-cb446y"><circle cx="0" cy="0" r="150" fill="#d8f3e6"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#d8f3e6"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#d8f3e6" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#d8f3e6" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffd166"/></clipPath>
+  <filter id="soft-cb446y" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#0f7a5a"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#d8f3e6"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#d8f3e6"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#d8f3e6" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#d8f3e6" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffd166"/>
+  <g clip-path="url(#sil-cb446y)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-cb446y)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-cb446y)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#0f7a5a"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#0f7a5a"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#0f7a5a"/>
+</g>
+</svg><text x="573" y="368" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Emerald</text><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" x="660" y="200" width="150" height="150">
+<defs>
+  <clipPath id="sil-172f6ow"><circle cx="0" cy="0" r="150" fill="#3a2e39"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#3a2e39"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#3a2e39" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#3a2e39" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffedd8"/></clipPath>
+  <filter id="soft-172f6ow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="512" height="512" fill="#f57b3d"/>
+<g transform="translate(327 242.5) scale(0.8166)">
+  <circle cx="0" cy="0" r="150" fill="#3a2e39"/><rect x="-150" y="0" width="300" height="420" rx="0" fill="#3a2e39"/><ellipse cx="-178" cy="85" rx="46" ry="68" fill="#3a2e39" transform="rotate(16 -178 85)"/><ellipse cx="178" cy="85" rx="46" ry="68" fill="#3a2e39" transform="rotate(-16 178 85)"/><ellipse cx="0" cy="260" rx="92" ry="145" fill="#ffedd8"/>
+  <g clip-path="url(#sil-172f6ow)">
+    <ellipse cx="-65" cy="-75" rx="150" ry="120" fill="#ffffff" opacity="0.11" filter="url(#soft-172f6ow)"/>
+    <ellipse cx="90" cy="240" rx="200" ry="185" fill="#000000" opacity="0.10" filter="url(#soft-172f6ow)"/>
+  </g>
+  <ellipse cx="-52" cy="-25" rx="17.3" ry="26.5" fill="#f57b3d"/><ellipse cx="52" cy="-25" rx="17.3" ry="26.5" fill="#f57b3d"/><ellipse cx="0" cy="50" rx="24" ry="17.3" fill="#f57b3d"/>
+</g>
+</svg><text x="735" y="368" font-family="-apple-system,'Segoe UI',Helvetica,sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Tangerine</text>
+</svg>

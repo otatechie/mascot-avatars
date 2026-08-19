@@ -1,6 +1,6 @@
 {
   "name": "mascot-avatars",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Procedural SVG mascot avatars in the 'IP as Logo' style: 6-10 rounded shapes, two colors, solid background, deterministic from a seed string.",
   "main": "avatar.js",
   "module": "avatar.mjs",
